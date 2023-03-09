@@ -97,11 +97,11 @@ const HomePage = () => {
           <div className="col-md-6">
             {" "}
             <Typography variant="h3" className={classes.heading}>
-            #1 MEME ecosytem built on  <br />
-            CORE Blockchain
+            Join the fun, win big, and collect unique treasures with  <br />
+            Bullcore the all-in-one platform
             </Typography>
             <Typography variant="body1" className={classes.para}>
-            bergabung lah dengan komunitas Bullcore dan nikmati manfaat ekslusif di ekosistem kami
+            Join the Bullcore community and enjoy exclusive benefits in our ecosystem
             </Typography>
             <div>
               <a href="#">

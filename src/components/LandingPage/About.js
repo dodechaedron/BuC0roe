@@ -87,14 +87,14 @@ const About = () => {
           {' '}
           <div className={classes.textContainer}>
             <h5 className={classes.subHeading}>About Bullcore</h5>
-            <Typography component="p" className={classes.para}> Bullcore token adalah platform yang sepenuhnya di dukung oleh 
-            teknelogi Core Blockhain dan di rancang untuk memberikan solusi 
-            yang terdesentralisasi untuk berbagai jenis aktivitas hiburan yang menarik dalam ekosistem , seperti raffle, launchpad, casino, dan nft marketlace.
-           
+            <Typography component="p" className={classes.para}> Bullcore token is a platform based on 
+            Core Blockchain technology and is designed to provide 
+            a decentralized solution for various types of interesting 
+            entertainment activities in the ecosystem and provide sustainable benefits for holders
               <br />
               <div style={{ marginTop: 10 }}>
-              pengguna memiliki kendali penuh atas aset mereka dan aktivitas mereka di platfrom, 
-            tanpa ada nya otoritas sentral yang mengontrol atau memanipulasi proses. 
+              users have complete control over their assets and their activities on the platform, 
+without a central authority controlling or manipulating the process.
               </div>{' '}
             </Typography>
           </div>

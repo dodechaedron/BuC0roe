@@ -266,6 +266,39 @@ const Investor = () => {
                 </a>
               </div>
             </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://brise.miidas.com/">
+                  <img
+                    src="assets/miidas.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://https://www.lunagens.com/">
+                  <img
+                    src="assets/lunagens.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://www.thememeroyale.com/">
+                  <img
+                    src="assets/memeroyale.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

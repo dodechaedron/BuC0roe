@@ -260,7 +260,7 @@ const Navbar = () => {
         ))}
         <Divider />
         <ListItem button>
-          <a href="#" style={{ textDecoration: 'none' }}>
+          <a href="Coming Soon" style={{ textDecoration: 'none' }}>
             <Button variant="outlined" className={classes.outlinedWhitepaper}>
               White paper
             </Button>
@@ -343,7 +343,7 @@ const Navbar = () => {
 
           <div style={{ paddingRight: 10 }}>
             <Tooltip title="Bullcore White Paper">
-              <a href="#">
+              <a href="Coming Soon">
                 <Button className={classes.buttonWhitePaper} variant="contained" startIcon={<DescriptionOutlined />}>
                   White paper
                 </Button>

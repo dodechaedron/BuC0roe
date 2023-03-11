@@ -33,7 +33,7 @@ const getStepsData = () => {
         "Whale Holder Voting System",
         "Whitepaper v1 & Upgrade website",
       ],
-      completed: true,
+      completed: false,
       icon: launch,
     },
     {

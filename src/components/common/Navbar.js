@@ -362,10 +362,10 @@ const Navbar = () => {
           </div>
           <div>
             {' '}
-            <Tooltip title="Bullcore Staking">
-              <a href="#">
+            <Tooltip title="Bullcore Ecosystem">
+              <a href="Ecosystem">
                 <Button className={classes.buttonGame} variant="contained">
-                  Staking
+                  Ecosystem
                 </Button>
               </a>
             </Tooltip>

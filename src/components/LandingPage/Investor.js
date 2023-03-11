@@ -212,7 +212,7 @@ const Investor = () => {
           <div className="row justify-content-center">
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://coredao.org/">
+                <a className={classes.listItem} href="https://coredao.org/" target="_blank">
                   <img
                     src="assets/wrapper.png"
                     alt="logo"
@@ -223,7 +223,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://icecreamswap.com/">
+                <a className={classes.listItem} href="https://icecreamswap.com/" target="_blank">
                   <img
                     src="assets/icescream.png"
                     alt="logo"
@@ -234,7 +234,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-              <a className={classes.listItem} href="https://dxsale.app/">
+              <a className={classes.listItem} href="https://dxsale.app/" target="_blank">
                   <img
                     src="assets/DXSALE.png"
                     alt="logo"
@@ -245,7 +245,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://ave.ai/">
+                <a className={classes.listItem} href="https://ave.ai/" target="_blank">
                   <img
                     src="assets/wizarre.png"
                     alt="ave"
@@ -257,7 +257,7 @@ const Investor = () => {
 
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://genkoterminal.com/">
+                <a className={classes.listItem} href="https://genkoterminal.com/" target="_blank">
                   <img
                     src="assets/GENKOTERMINAL.png"
                     alt="logo"
@@ -268,7 +268,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://brise.miidas.com/">
+                <a className={classes.listItem} href="https://brise.miidas.com/" target="_blank">
                   <img
                     src="assets/miidas.png"
                     alt="logo"
@@ -279,7 +279,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://https://www.lunagens.com/">
+                <a className={classes.listItem} href="https://www.lunagens.com/" target="_blank">
                   <img
                     src="assets/lunagens.png"
                     alt="logo"
@@ -290,7 +290,7 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://www.thememeroyale.com/">
+                <a className={classes.listItem} href="https://www.thememeroyale.com/" target="_blank">
                   <img
                     src="assets/memeroyale.png"
                     alt="logo"
@@ -301,9 +301,53 @@ const Investor = () => {
             </div>
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://coresharky.com/">
+                <a className={classes.listItem} href="https://coresharky.com/" target="_blank">
                   <img
                     src="assets/sharky.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://twitter.com/Avocadocorebaby" target="_blank">
+                  <img
+                    src="assets/AVO.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://twitter.com/CoreDAODailyTW" target="_blank">
+                  <img
+                    src="assets/coredao-daily.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://evametatoken.com/" target="_blank">
+                  <img
+                    src="assets/Evemeta.png"
+                    alt="logo"
+                    className={classes.imageWrapper}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-md-3 mb-4" align="center">
+              <div>
+                <a className={classes.listItem} href="https://youngparrotnft.com/" target="_blank">
+                  <img
+                    src="assets/youngparrot.png"
                     alt="logo"
                     className={classes.imageWrapper}
                   />

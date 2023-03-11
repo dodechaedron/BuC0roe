@@ -84,7 +84,7 @@ const Footer = () => {
 					<div className="d-flex justify-content-center mt-4">
 						<div className={classes.iconWrapper}>
 							<Tooltip title="Twitter" aria-label="add1">
-								<a href="https://twitter.com/bullcore_?t=DIeYg9fM9Ps1X7cUwklAyw&s=09">
+								<a href="https://twitter.com/bullcore_?t=DIeYg9fM9Ps1X7cUwklAyw&s=09" target="_blank" >
 									<IconButton aria-label="Twitter" className={classes.iconButton}>
 										<Twitter className={classes.icon} />
 									</IconButton>
@@ -94,7 +94,7 @@ const Footer = () => {
 
 						<div className={classes.iconWrapper}>
 							<Tooltip title="Discord">
-								<a href="https://discord.gg/bullcore">
+								<a href="https://discord.gg/bullcore" target="_blank" >
 									<IconButton aria-label="Discord" className={classes.iconButton}>
 										<img
 											src="assets/discord.png"
@@ -109,7 +109,7 @@ const Footer = () => {
 						</div>
 						<div className={classes.iconWrapper}>
 							<Tooltip title="Telegram">
-								<a href="https://t.me/bullcoreglobal">
+								<a href="https://t.me/bullcoreglobal" target="_blank" >
 									<IconButton aria-label="Telegram" className={classes.iconButton}>
 										<Telegram className={classes.icon} />
 									</IconButton>

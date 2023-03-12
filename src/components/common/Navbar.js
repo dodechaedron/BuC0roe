@@ -247,7 +247,7 @@ const Navbar = () => {
           //   icon: <PeopleAltOutlined />,
           // },
           // { name: 'Game Items', id: 'items', icon: <VpnLockOutlined /> },
-          { name: 'Product', id: 'product', icon: <FlareOutlined /> },
+          { name: 'Features', id: 'Features', icon: <FlareOutlined /> },
           { name: 'Bulc', id: 'Bulc', icon: <CategoryIcon /> },
           { name: 'Roadmap', id: 'roadmap', icon: <TimelineOutlined /> },
           {},
@@ -324,12 +324,12 @@ const Navbar = () => {
               Game Items
             </Typography>{' '}
           </Link> */}
-          <Link exact="true" to="product" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
+          <Link exact="true" to="Features" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
             <Typography className={classes.tabs} variant="body1">
-              Product
+              Features
             </Typography>{' '}
           </Link>
-          <Link exact="true" to="Bulc" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
+          <Link exact="true" to="tokenomics" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
             <Typography className={classes.tabs} variant="body1">
               Tokenomics
             </Typography>{' '}

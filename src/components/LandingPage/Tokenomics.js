@@ -134,6 +134,7 @@ const Tokenomics = () => {
                 />{" "}
               </div>
             </div>
+            <h5 className={classes.subheading}>Total Supply 1B</h5>
             <a
                     target="_blank"
                     style={{ color: "Yellow" }}
@@ -141,8 +142,6 @@ const Tokenomics = () => {
                   >
                     Smart Contract
                   </a>
-            <h5 className={classes.subheading}>Total Supply 1B</h5>
-
             <ul className={classes.listItems}>
               <li className={classes.listItem}>
                 <p>

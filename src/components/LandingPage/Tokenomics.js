@@ -134,12 +134,20 @@ const Tokenomics = () => {
                 />{" "}
               </div>
             </div>
-            <h5 className={classes.subheading}>Total Supply 1,000,000,000</h5>
+            <a
+                    target="_blank"
+                    style={{ color: "Yellow" }}
+                    href="https://scan.coredao.org/address/0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f"
+                  >
+                    Smart Contract
+                  </a>
+            <h5 className={classes.subheading}>Total Supply 1B</h5>
+
             <ul className={classes.listItems}>
               <li className={classes.listItem}>
                 <p>
                   <strong style={{ marginRight: 5 }}>
-                    Burn{" "}
+                    Burn 20% {" "}
                   </strong>
                   <a
                     target="_blank"
@@ -152,37 +160,37 @@ const Tokenomics = () => {
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Airdrop 5%</strong> 50,000,000
+                  <strong style={{ marginRight: 5 }}>Airdrop 5%</strong> 50M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Presale 25%</strong> 250,000,000
+                  <strong style={{ marginRight: 5 }}>Presale 25%</strong> 250M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Liquidity 15%</strong> 150,000,000
+                  <strong style={{ marginRight: 5 }}>Liquidity 15%</strong> 150M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Staking & Farming 10%</strong> 100,000,000
+                  <strong style={{ marginRight: 5 }}>Staking & Farming 10%</strong> 100M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Ecosystem 15%</strong> 150,000,000
+                  <strong style={{ marginRight: 5 }}>Ecosystem 15%</strong> 150M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Reverse 5%</strong> 50,000,000
+                  <strong style={{ marginRight: 5 }}>Reverse 5%</strong> 50M
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p>
-                  <strong style={{ marginRight: 5 }}>Team 5%</strong> 50,000,000
+                  <strong style={{ marginRight: 5 }}>Team 5%</strong> 50M
                 </p>
               </li>
              

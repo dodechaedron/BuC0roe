@@ -27,12 +27,12 @@ const LandingPage = () => {
         <GameItems />
       </section> */}
 
-      <section id="features">
+      <section id="Product">
         <Features />
       </section>
-      {/* <section id="usecase">
+      <section id="Token">
         <Token />
-      </section> */}
+      </section>
       <section id="tokenomics">
         <Tokenomics />
       </section>

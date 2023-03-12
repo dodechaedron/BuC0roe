@@ -240,15 +240,15 @@ const Navbar = () => {
       onKeyDown={toggleDrawer(anchor, false)}>
       <List>
         {[
-          { name: 'About', id: 'intro', icon: <TouchAppOutlined /> },
+          { name: 'About', id: 'About', icon: <TouchAppOutlined /> },
           // {
           //   name: 'Characters',
           //   id: 'characters',
           //   icon: <PeopleAltOutlined />,
           // },
           // { name: 'Game Items', id: 'items', icon: <VpnLockOutlined /> },
-          { name: 'Product', id: 'features', icon: <FlareOutlined /> },
-          // { name: 'Bulc Token', id: 'usecase', icon: <CategoryIcon /> },
+          { name: 'Product', id: 'product', icon: <FlareOutlined /> },
+          { name: 'Bulc', id: 'Bulc', icon: <CategoryIcon /> },
           { name: 'Roadmap', id: 'roadmap', icon: <TimelineOutlined /> },
           {},
         ].map((tab, index) => (
@@ -324,12 +324,12 @@ const Navbar = () => {
               Game Items
             </Typography>{' '}
           </Link> */}
-          <Link exact="true" to="features" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
+          <Link exact="true" to="product" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
             <Typography className={classes.tabs} variant="body1">
-              Features
+              Product
             </Typography>{' '}
           </Link>
-          <Link exact="true" to="usecase" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
+          <Link exact="true" to="Bulc" smooth={true} offset={0} duration={400} delay={0} className={classes.home}>
             <Typography className={classes.tabs} variant="body1">
               Tokenomics
             </Typography>{' '}
@@ -353,7 +353,7 @@ const Navbar = () => {
           <div style={{ paddingRight: 10 }}>
             {' '}
             <Tooltip title="Buy Bullcore">
-              <a href="#">
+              <a href="https://dx.app/dxsaleview?saleID=184&chain=Core" target='_blank'>
                 <Button className={classes.buttonGame} variant="contained">
                   Buy 
                 </Button>

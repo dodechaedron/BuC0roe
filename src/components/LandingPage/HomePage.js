@@ -104,7 +104,7 @@ const HomePage = () => {
             Join the Bullcore community and enjoy exclusive benefits in our ecosystem
             </Typography>
             <div>
-              <a href="#">
+              <a href="https://dx.app/dxsaleview?saleID=184&chain=Core" target="_blank">
                 <Button className={classes.buttonGame} variant="contained">
                   Buy Now
                 </Button>

@@ -257,7 +257,7 @@ const Investor = () => {
 
             <div className="col-6 col-md-3 mb-4" align="center">
               <div>
-                <a className={classes.listItem} href="https://genkoterminal.com/" target="_blank">
+                <a className={classes.listItem} href="https://www.geckoterminal.com/core/" target="_blank">
                   <img
                     src="assets/GENKOTERMINAL.png"
                     alt="logo"

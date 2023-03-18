@@ -44,7 +44,7 @@ const getStepsData = () => {
         "Launch Staking & Farming Reveneu Reward",
         "Expand Media Social & Partnership",
         "CoinMarketCap & Coingenko Listing" ],
-      completed: true,
+      completed: false,
       icon: launch,
     },
     {
@@ -56,7 +56,7 @@ const getStepsData = () => {
         "Bullcore NFT Launch",
         "Launch Bullcore NFT Game x MemeRoyale BSC",
       ],
-      completed: true,
+      completed: false,
       icon: launch,
     },
     {

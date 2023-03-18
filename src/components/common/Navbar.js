@@ -267,7 +267,7 @@ const Navbar = () => {
           </a>
         </ListItem>
         <ListItem button style={{ marginTop: 5 }}>
-          <a href="#" style={{ textDecoration: 'none' }}>
+          <a href="https://icecreamswap.com/swap?chainId=1116&outputCurrency=CORE&inputCurrency=0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f" target= "_blank" style={{ textDecoration: 'none' }}>
             <Button variant="outlined" className={classes.outlinedGame}>
               Buy 
             </Button>
@@ -353,7 +353,7 @@ const Navbar = () => {
           <div style={{ paddingRight: 10 }}>
             {' '}
             <Tooltip title="Buy Bullcore">
-              <a href="https://dx.app/dxsaleview?saleID=184&chain=Core" target='_blank'>
+              <a href="https://icecreamswap.com/swap?chainId=1116&outputCurrency=CORE&inputCurrency=0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f" target='_blank'>
                 <Button className={classes.buttonGame} variant="contained">
                   Buy 
                 </Button>

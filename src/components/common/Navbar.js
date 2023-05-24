@@ -248,7 +248,7 @@ const Navbar = () => {
           // },
           // { name: 'Game Items', id: 'items', icon: <VpnLockOutlined /> },
           { name: 'Features', id: 'Features', icon: <FlareOutlined /> },
-          { name: 'Bulc', id: 'Bulc', icon: <CategoryIcon /> },
+          { name: 'Tokenomic', id: 'Tokenimic', icon: <CategoryIcon /> },
           { name: 'Roadmap', id: 'roadmap', icon: <TimelineOutlined /> },
           {},
         ].map((tab, index) => (

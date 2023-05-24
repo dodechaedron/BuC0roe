@@ -267,7 +267,7 @@ const Navbar = () => {
           </a>
         </ListItem>
         <ListItem button style={{ marginTop: 5 }}>
-          <a href="https://icecreamswap.com/swap?chainId=1116&outputCurrency=CORE&inputCurrency=0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f" target= "_blank" style={{ textDecoration: 'none' }}>
+          <a href="#" target= "_blank" style={{ textDecoration: 'none' }}>
             <Button variant="outlined" className={classes.outlinedGame}>
               Buy 
             </Button>
@@ -297,7 +297,7 @@ const Navbar = () => {
             duration={400}
             delay={0}
             className={classes.home}>
-            <Avatar variant="square" src="assets/logo-bullcore.png" style={{ height: 60, width: 112 }} />
+            <Avatar variant="square" src="assets/logo-bullcore-down.png" style={{ height: 64, width: 64 }} />
           </Link>
           <div className={classes.grow} />
 
@@ -342,7 +342,7 @@ const Navbar = () => {
           </Link>
 
           <div style={{ paddingRight: 10 }}>
-            <Tooltip title="Bullcore White Paper">
+            <Tooltip title="#">
               <a href="Coming Soon">
                 <Button className={classes.buttonWhitePaper} variant="contained" startIcon={<DescriptionOutlined />}>
                   White paper
@@ -352,8 +352,8 @@ const Navbar = () => {
           </div>
           <div style={{ paddingRight: 10 }}>
             {' '}
-            <Tooltip title="Buy Bullcore">
-              <a href="https://icecreamswap.com/swap?chainId=1116&outputCurrency=CORE&inputCurrency=0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f" target='_blank'>
+            <Tooltip title="Buy">
+              <a href="#" target='_blank'>
                 <Button className={classes.buttonGame} variant="contained">
                   Buy 
                 </Button>
@@ -362,7 +362,7 @@ const Navbar = () => {
           </div>
           <div>
             {' '}
-            <Tooltip title="Bullcore Ecosystem">
+            <Tooltip title="Ecosystem">
               <a href="Ecosystem">
                 <Button className={classes.buttonGame} variant="contained">
                   Ecosystem
@@ -377,7 +377,7 @@ const Navbar = () => {
             <div className={classes.grow} />
             <Link
               exact="true"
-              exact="true"
+              // exact="true"
               activeClass="active"
               to="header-section"
               smooth={true}
@@ -385,7 +385,7 @@ const Navbar = () => {
               duration={500}
               delay={0}
               className={classes.home}>
-              <Avatar variant="square" src="assets/logo-bullcore.png" style={{ height: 55, width: 110 }} />
+              <Avatar variant="square" src="assets/logo-bullcore-down.png" style={{ height: 55, width: 110 }} />
             </Link>
 
             <div className={classes.grow} />

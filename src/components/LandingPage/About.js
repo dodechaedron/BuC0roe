@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import React from 'react';
-import war3 from '../../assets/mascot.png';
+import war3 from '../../assets/logo3D1.png';
 
 const useStyles = makeStyles((theme) => ({
   background: {
@@ -86,11 +86,9 @@ const About = () => {
         <div className="col-md-5">
           {' '}
           <div className={classes.textContainer}>
-            <h5 className={classes.subHeading}>About Bullcore</h5>
-            <Typography component="p" className={classes.para}> Bullcore token is a platform based on 
-            Core Blockchain technology and is designed to provide 
-            a decentralized solution for various types of interesting 
-            entertainment activities in the ecosystem and provide sustainable benefits for holders
+            <h5 className={classes.subHeading}>About</h5>
+            <Typography component="p" className={classes.para}> Pepenetwork is a platform based on Binance smart chain technology and is designed to provide a decentralized solution for various types of interesting entertainment activities in the ecosystem and provide sustainable benefits for holders
+users have complete control over their assets and their activities on the platform, without a central authority controlling or manipulating the process.
               <br />
               <div style={{ marginTop: 10 }}>
               users have complete control over their assets and their activities on the platform, 

@@ -1,10 +1,10 @@
 import { Avatar, IconButton, makeStyles } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-import research from "../../assets/launch.png";
-import farming from "../../assets/launch.png";
-import launch from "../../assets/launch.png";
-import tokenomics from "../../assets/launch.png";
-import chain from "../../assets/launch.png";
+import research from "../../assets/logopepe.png";
+import farming from "../../assets/logopepe.png";
+import launch from "../../assets/logopepe.png";
+import tokenomics from "../../assets/logopepe.png";
+import chain from "../../assets/logopepe.png";
 
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
@@ -13,34 +13,37 @@ const getStepsData = () => {
   return [
     {
       id: "1",
-      title: "Step 1",
+      title: "Phase 1",
       heading: "",
       subheadings: [
-        "Research & Team Forming",
+        "Plan development",
         "Release Media Social",
-        "Airdrop Community",
+        "Release Website",
+        "Launch $PEPEN on Pancakeswap",
       ],
       completed: true,
       icon: launch,
     },
     {
       id: "2",
-      title: "Step 2",
+      title: "Phase 2",
       heading: "",
       subheadings: [
-        "Release Bullcore token smart contract",
-        "Bullcore Presale & listing on Dex",
-        "Whale Holder Voting System",
-        "Whitepaper v1 & Upgrade website",
+        "Marketing Campaigns",
+        "Airdrop Campaign",
+        "Swap Platfrom Release ",
+        "Staking Pool",
+        "Whitepaper Launch & Upgrade website",
       ],
       completed: false,
       icon: launch,
     },
     {
       id: "3",
-      title: "Step 3",
+      title: "Phase 3",
       heading: "",
       subheadings: [
+        "Audit & KYC",
         "Launch Staking & Farming Reveneu Reward",
         "Expand Media Social & Partnership",
         "CoinMarketCap & Coingenko Listing" ],
@@ -52,31 +55,9 @@ const getStepsData = () => {
       title: "Step 4",
       heading: "",
       subheadings: [
-        "Airdrop NFT Campaign",
-        "Bullcore NFT Launch",
-        "Launch Bullcore NFT Game x MemeRoyale BSC",
-      ],
-      completed: false,
-      icon: launch,
-    },
-    {
-      id: "5",
-      title: "Step 5",
-      heading: "",
-      subheadings: [
-        "Launch Bull NFT Marketplace",
-        "Launch Bull Raffle",
-      ],
-      completed: false,
-      icon: launch,
-    },
-    {
-      id: "6",
-      title: "Step 6",
-      heading: "",
-      subheadings: [
-        "Launch Dapp Casino",
-        "Launchpad BullPad Release",
+        "PepeNetwork NFT Launch",
+        "Launch PepeNetwork NFT Marketplace",
+        "Launch PepeN All in one platfrom",
       ],
       completed: false,
       icon: launch,
@@ -205,7 +186,7 @@ const Roadmap = () => {
     <div className={classes.background}>
       <div>
         <h6 className={classes.heading}>
-          Bullcore RoadMap<strong className={classes.highlight}></strong>
+          RoadMap<strong className={classes.highlight}></strong>
         </h6>
       </div>
 

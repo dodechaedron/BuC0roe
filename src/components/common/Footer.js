@@ -78,38 +78,22 @@ const Footer = () => {
 			<div className="text-center ">
 				<div>
 					<h6 className={classes.heading}>
-						Follow Bullcore<span className={classes.highlight} />
+						Follow PepeNetwork<span className={classes.highlight} />
 					</h6>
 					<p className={classes.para}>Join To Community!</p>
 					<div className="d-flex justify-content-center mt-4">
 						<div className={classes.iconWrapper}>
 							<Tooltip title="Twitter" aria-label="add1">
-								<a href="https://twitter.com/bullcore_?t=DIeYg9fM9Ps1X7cUwklAyw&s=09" target="_blank" >
+								<a href="https://twitter.com/Pepenetwork_" target="_blank" >
 									<IconButton aria-label="Twitter" className={classes.iconButton}>
 										<Twitter className={classes.icon} />
 									</IconButton>
 								</a>
 							</Tooltip>
 						</div>
-
-						<div className={classes.iconWrapper}>
-							<Tooltip title="Discord">
-								<a href="https://discord.gg/bullcore" target="_blank" >
-									<IconButton aria-label="Discord" className={classes.iconButton}>
-										<img
-											src="assets/discord.png"
-											height="30px"
-											width="30px"
-											style={{ opacity: 0.75, marginTop: 2 }}
-											alt="discord"
-										/>
-									</IconButton>
-								</a>
-							</Tooltip>
-						</div>
 						<div className={classes.iconWrapper}>
 							<Tooltip title="Telegram">
-								<a href="https://t.me/bullcoreglobal" target="_blank" >
+								<a href="https://t.me/pepenetworkop" target="_blank" >
 									<IconButton aria-label="Telegram" className={classes.iconButton}>
 										<Telegram className={classes.icon} />
 									</IconButton>
@@ -121,10 +105,10 @@ const Footer = () => {
 
 					<div className="text-center" style={{ marginTop: 100 }}>
 						<div>
-							<img src="assets/logo-bullcore-down.png" alt="logo" height="50px" />
+							<img src="assets/logopepe.png" alt="logo" height="50px" />
 						</div>
 						<p className={classes.para}>
-							Copyright 2023 <span className={classes.highlight}>Bullcore</span>. All Rights Reserved.
+							Copyright 2023 <span className={classes.highlight}>PEPE NETWORK</span>. All Rights Reserved.
 						</p>
 					</div>
 				</div>

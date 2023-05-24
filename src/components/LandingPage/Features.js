@@ -100,62 +100,44 @@ const Feature = () => {
   const classes = useStyles();
   return (
     <div className={classes.background}>
-      <h6 className={classes.heading}>BullCore Products</h6>
+      <h6 className={classes.heading}>Utility</h6>
 
       <div className={classes.itemsContainer}>
         <div className={classes.item}>
           <h5 className={classes.subheading}>
             <LocalActivityIcon fontSize="large" />
-            Bull Raffles
+            Pepe Swap
           </h5>
           <p className={classes.para}>
-          Bullcore Raffle Decentralized Token Based , 
-          Holders of $BulC will be able to make Raffle transactions and you can also earn passive income from there, 
-          because we provide not only a raffle platform for our project. 
-          But we are developing our raffle site so that it can be used by other projects. 
-          other than that we will continue to build for the continuity of our ecosystem 
+          Pepe Swap is a token exchange platform that is part of the Pepe All-in-One Platform ecosystem. The goal is to facilitate the fast and secure exchange of $PepeN tokens and other crypto tokens. Pepe Swap uses decentralized technology and provides various features
           </p>
         </div>
 
         <div className={classes.item}>
           <h5 className={classes.subheading}>
-            <StorefrontIcon fontSize="large" /> Bull NFT Marketplace
+            <StorefrontIcon fontSize="large" /> Pepe NFT Marketplace
           </h5>
           <p className={classes.para}>
-          the platform was built to empower the Core ecosystem and also allow users to easily create and market their NFTs, 
-          as well as purchase NFTs from other users. payments are made using $Bulc & $Core. 
+          the platform was built to empower the PepeNetwork ecosystem and also allow users to easily create and market their NFTs, 
+          as well as purchase NFTs from other users. payments are made using $PepeN. 
           In addition, the transaction fees used are very low so that users can transact more efficiently.
           </p>
         </div>
 
         <div className={classes.item}>
           <h5 className={classes.subheading}>
-            <CasinoIcon fontSize="large" /> Bull Casino
+            <CasinoIcon fontSize="large" /> Pepe All in one Platfrom
           </h5>
           <p className={classes.para}>
-          Every $BulC Token holder can make transactions on our casino platform
-           and feel the many advantages there such as weekly prizes, jackpots.
-           and lots of games there such as coinflip, crash, blackjack, baccarat, Poker, Slots and others.
-we will provide unlimited fun for this platform
+          Pepe All-in-One Platform is an integrated ecosystem that includes several different services dedicated to the use of $PepeN tokens and $PepeN collections. This platform is designed to facilitate various activities,Pepe Swap, NFT Marketplace, Pepe Casino, Pepe pad, to Pepe staking.
           </p>
         </div>
         <div className={classes.item}>
           <h5 className={classes.subheading}>
-            <SavingsIcon fontSize="large" /> Bull Stake
+            <SavingsIcon fontSize="large" /> Pepe Stake
           </h5>
-          <p className={classes.para}>Bullcore holders will be able to stake Tokens and NFTs to earn $BulC with the highest APY,
-             Bullcore is native currency. Holders will start receiving $BulC through the Bet system.
-          </p>
-        </div>
-        <div className={classes.item}>
-          <h5 className={classes.subheading}>
-            <RocketLaunchIcon fontSize="large" /> Bull Pad
-          </h5>
-          <p className={classes.para}>
-          Bullpad is a decentralized new project launch platform that provides additional advantages
-            for token holders based on the level of tier holders achieved.
-            this system gives token holders an opportunity to earn additional profits from Each
-            the launch of new projects undertaken , such as discounts , bonuses , and special privileges.
+          <p className={classes.para}>PepeN holders will be able to stake Tokens and NFTs to earn $PepeN with the highest APY,
+             PepeN is native currency. Holders will start receiving $PepeN through the Fair system.
           </p>
         </div>
       </div>

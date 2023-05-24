@@ -1,7 +1,7 @@
 import CardMedia from '@material-ui/core/CardMedia';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import React from 'react';
-import token from '../../assets/step.png';
+import token from '../../assets/logopepe.png';
 
 import AccountBalanceOutlined from '@material-ui/icons/AccountBalanceOutlined';
 import LocalFloristOutlined from '@material-ui/icons/LocalFloristOutlined';
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
   },
   card: {
     background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url('./assets/bg-utility.png') `,
+    url('./assets/utility.jpg') `,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: 320,
@@ -95,8 +95,8 @@ const Token = () => {
   const classes = useStyles();
   return (
     <div className={classes.background}>
-      <h6 className={classes.heading}>Bullcore hyper deflationary</h6>
-      <h3 className={classes.heading}>5% buy | 5% sell tax</h3>
+      <h6 className={classes.heading}>PepeNetwork hyper deflationary</h6>
+      <h3 className={classes.heading}>15% buy | 15% sell tax</h3>
       <div className="row mt-5">
         <div className="col-md-4 d-flex justify-content-center">
           <div className={classes.card}>
@@ -110,7 +110,7 @@ const Token = () => {
               {' '}
               <hr style={{ width: 50, backgroundColor: 'white', height: 3, margin: 10 }} />
             </div>
-            <p className={classes.para}>1% of Every Buy and Sale goes to the burn wallet for Life</p>
+            <p className={classes.para}>2% of Every Buy and Sale goes to the burn wallet for Life</p>
           </div>
         </div>
         <div className="col-md-4 d-flex justify-content-center">
@@ -124,7 +124,7 @@ const Token = () => {
               {' '}
               <hr style={{ width: 50, backgroundColor: 'white', height: 3, margin: 10 }} />
             </div>
-            <p className={classes.para}>1% Of Every Buy and Sale Strengthens Our Liquidity For Life.</p>
+            <p className={classes.para}>8% Of Every Buy and Sale Strengthens Our Liquidity For Life.</p>
           </div>
         </div>
         <div className="col-md-4 d-flex justify-content-center">
@@ -139,7 +139,7 @@ const Token = () => {
               <hr style={{ width: 50, backgroundColor: 'white', height: 3, margin: 10 }} />
             </div>
             <p className={classes.para}>
-            3% Of Every Buy and Sale Strengthens Marketing & Ecosystem, Keeps it running and can grow to build a great Project with Ecosystem. In the future this will be used as a weekly giveaway for Raffle, Casino.
+            5% Of Every Buy and Sale Strengthens Marketing & Ecosystem, Keeps it running and can grow to build a great Project with Ecosystem. In the future this will be used as a weekly giveaway for Raffle, Casino.
             </p>
           </div>
         </div>

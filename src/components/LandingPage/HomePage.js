@@ -1,5 +1,5 @@
 import React from "react";
-import headerRight from "../../assets/character-1.png";
+import headerRight from "../../assets/logo3D1.png";
 import { makeStyles, Button, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -98,13 +98,13 @@ const HomePage = () => {
             {" "}
             <Typography variant="h3" className={classes.heading}>
             Join the fun, win big, and collect unique treasures with  <br />
-            Bullcore the all-in-one platform
+            PepeNetwork the all-in-one platform
             </Typography>
             <Typography variant="body1" className={classes.para}>
-            Join the Bullcore community and enjoy exclusive benefits in our ecosystem
+            Join the PepeNetwork community and enjoy exclusive benefits in our ecosystem
             </Typography>
             <div>
-              <a href="https://icecreamswap.com/swap?chainId=1116&outputCurrency=CORE&inputCurrency=0x325bC2F14b25b8D67fe30b94D8e5DE6671C29d0f" target="_blank">
+              <a href="#" target="_blank">
                 <Button className={classes.buttonGame} variant="contained">
                   Buy Now
                 </Button>

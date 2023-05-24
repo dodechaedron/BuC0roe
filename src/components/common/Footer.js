@@ -105,7 +105,7 @@ const Footer = () => {
 
 					<div className="text-center" style={{ marginTop: 100 }}>
 						<div>
-							<img src="assets/logopepe.png" alt="logo" height="50px" />
+							<img src="assets/logo3D1.png" alt="logo" height="50px" />
 						</div>
 						<p className={classes.para}>
 							Copyright 2023 <span className={classes.highlight}>PEPE NETWORK</span>. All Rights Reserved.
